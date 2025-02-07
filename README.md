@@ -1,8 +1,58 @@
-# React + Vite
+🌅 Horizon Stay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Horizon Stay is a modern and efficient hotel management web app built with Vite + React and powered by Supabase as the backend. It provides hotel employees with a seamless way to manage data flow, track bookings, and visualize real-time statistics using interactive charts. The app is deployed on Vercel for a smooth and fast experience.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Real-Time Data Management - Easily track and manage hotel operations in real time.✅ Interactive Charts & Insights 📊 - Get valuable insights using visually appealing analytics.✅ Authentication & Authorization 🔒 - Secure login and role-based access with Supabase Auth.✅ Lightning-Fast Performance ⚡ - Thanks to Vite for fast development & optimized builds.✅ Modern UI with Styled Components 🎨 - Aesthetic and responsive design.✅ State Management with React Query 🔄 - Efficient data fetching and caching.
+
+🛠️ Tech Stack
+
+Frontend: React.js, Vite, Styled Components
+
+Backend: Supabase (PostgreSQL, Auth, Realtime DB)
+
+State Management: React Query
+
+Deployment: Vercel
+
+🚀 Getting Started
+
+Follow these steps to run Horizon Stay locally:
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/yourusername/horizon-stay.git
+cd horizon-stay
+
+2️⃣ Install Dependencies
+
+yarn install   # or npm install
+
+3️⃣ Set Up Environment Variables
+
+Create a .env file in the root directory and add your Supabase credentials:
+
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+4️⃣ Start the Development Server
+
+yarn dev   # or npm run dev
+
+Now, open http://localhost:5173 in your browser.
+
+🎯 Live Demo
+
+🔗 Check out the live version: Horizon Stay
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+💡 Built with ❤️ by Your Name
+
