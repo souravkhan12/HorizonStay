@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import Heading from "./Heading";
+import Button from "./Button";
 
 const StyledErrorFallback = styled.main`
   height: 100vh;
@@ -18,7 +20,7 @@ const Box = styled.div`
   padding: 4.8rem;
   flex: 0 1 96rem;
   text-align: center;
-
+  justify-content: center;
   & h1 {
     margin-bottom: 1.6rem;
   }
@@ -29,3 +31,16 @@ const Box = styled.div`
     color: var(--color-grey-500);
   }
 `;
+
+function ErrorFallback({ error }) {
+  return (
+    <StyledErrorFallback>
+      <Box>
+        <Heading as="h1">Something Went Wrong</Heading>
+        <Button size="large"> Try Again or Go to HomePage</Button>
+      </Box>
+    </StyledErrorFallback>
+  );
+}
+
+export default ErrorFallback;
