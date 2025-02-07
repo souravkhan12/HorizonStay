@@ -1,58 +1,53 @@
-🌅 Horizon Stay
+# 🌅 Horizon Stay
 
-🚀 Horizon Stay is a modern and efficient hotel management web app built with Vite + React and powered by Supabase as the backend. It provides hotel employees with a seamless way to manage data flow, track bookings, and visualize real-time statistics using interactive charts. The app is deployed on Vercel for a smooth and fast experience.
+🚀 **Horizon Stay** is a modern and efficient hotel management web app built with **Vite + React** and powered by **Supabase** as the backend. It provides hotel employees with a seamless way to manage data flow, track bookings, and visualize real-time statistics using interactive charts. The app is deployed on **[Vercel](https://horizon-stay.vercel.app/)** for a smooth and fast experience.
 
-✨ Features
+## ✨ Features
 
-✅ Real-Time Data Management - Easily track and manage hotel operations in real time.✅ Interactive Charts & Insights 📊 - Get valuable insights using visually appealing analytics.✅ Authentication & Authorization 🔒 - Secure login and role-based access with Supabase Auth.✅ Lightning-Fast Performance ⚡ - Thanks to Vite for fast development & optimized builds.✅ Modern UI with Styled Components 🎨 - Aesthetic and responsive design.✅ State Management with React Query 🔄 - Efficient data fetching and caching.
+✅ **Real-Time Data Management** - Easily track and manage hotel operations in real time.  
+✅ **Interactive Charts & Insights** 📊 - Get valuable insights using visually appealing analytics.  
+✅ **Authentication & Authorization** 🔒 - Secure login and role-based access with Supabase Auth.  
+✅ **Lightning-Fast Performance** ⚡ - Thanks to **Vite** for fast development & optimized builds.  
+✅ **Modern UI with Styled Components** 🎨 - Aesthetic and responsive design.  
+✅ **State Management with React Query** 🔄 - Efficient data fetching and caching.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend: React.js, Vite, Styled Components
+- **Frontend:** React.js, Vite, Styled Components
+- **Backend:** Supabase (PostgreSQL, Auth, Realtime DB)
+- **State Management:** React Query
+- **Deployment:** Vercel
 
-Backend: Supabase (PostgreSQL, Auth, Realtime DB)
+## 🚀 Getting Started
 
-State Management: React Query
+Follow these steps to run **Horizon Stay** locally:
 
-Deployment: Vercel
-
-🚀 Getting Started
-
-Follow these steps to run Horizon Stay locally:
-
-1️⃣ Clone the Repository
-
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/yourusername/horizon-stay.git
 cd horizon-stay
+```
 
-2️⃣ Install Dependencies
-
+### 2️⃣ Install Dependencies
+```bash
 yarn install   # or npm install
+```
 
-3️⃣ Set Up Environment Variables
-
-Create a .env file in the root directory and add your Supabase credentials:
-
+### 3️⃣ Set Up Environment Variables
+Create a `.env` file in the root directory and add your Supabase credentials:
+```env
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-4️⃣ Start the Development Server
-
+### 4️⃣ Start the Development Server
+```bash
 yarn dev   # or npm run dev
+```
+Now, open [http://localhost:5173](http://localhost:5173) in your browser.
 
-Now, open http://localhost:5173 in your browser.
+## 🎯 Live Demo
+🔗 Check out the live version: [Horizon Stay](https://horizon-stay.vercel.app/)
 
-🎯 Live Demo
-
-🔗 Check out the live version: Horizon Stay
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-📜 License
-
-This project is licensed under the MIT License.
-
-💡 Built with ❤️ by Your Name
+💡 **Built with ❤️ by [sourav](https://github.com/souravkhan12)**
 
