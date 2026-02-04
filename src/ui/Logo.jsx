@@ -20,7 +20,7 @@ function Logo() {
     <StyledLogo>
       <Img src="/logo-light-1.png" alt="Logo" />
       <span style={{ color: `${isDarkMode ? "white" : "black"}` }}>
-        HorizonStay
+        The Web Oasis
       </span>
     </StyledLogo>
   );
